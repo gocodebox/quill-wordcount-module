@@ -12,8 +12,8 @@
 	 * i18n number formatter
 	 * @param    int   number  number to format
 	 * @return   string
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    1.0.0
+	 * @version  1.0.0
 	 */
 	function formatNumber( number ) {
 		return new Intl.NumberFormat().format( number );
@@ -23,8 +23,8 @@
 	 * Create the wordcounter container element
 	 * @param    obj   options  counter options
 	 * @return   obj            JS DOM Element
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    1.0.0
+	 * @version  1.0.0
 	 */
 	function createContainer( options ) {
 
@@ -60,8 +60,8 @@
 	 * @param    obj   l10n   localization text object
 	 * @param    int   words  current wordcount
 	 * @return   string
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    1.0.0
+	 * @version  1.0.0
 	 */
 	function getCounterText( l10n, words ) {
 
@@ -80,8 +80,8 @@
 	 * @param    obj   quill    quill instance object
 	 * @param    obj   options  module options
 	 * @return   void
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    1.0.0
+	 * @version  1.0.0
 	 */
 	Quill.register( 'modules/wordcount', function( quill, options ) {
 
@@ -103,8 +103,8 @@
 		 * Update the counter element color based on current word count & min/max settings
 		 * @param    int   words  current word count
 		 * @return   void
-		 * @since    [version]
-		 * @version  [version]
+		 * @since    1.0.0
+		 * @version  1.0.0
 		 */
 		function setCounterWarnings( words ) {
 
@@ -133,8 +133,8 @@
 		/**
 		 * Set the text of the counter element
 		 * @return   void
-		 * @since    [version]
-		 * @version  [version]
+		 * @since    1.0.0
+		 * @version  1.0.0
 		 */
 		function setCounterText() {
 
